@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-top">
+                <div class="nav-left">
+                    <div class="element1">
+                        <p>Kênh bán hàng</p>
+                    </div>
+                    <div class="element2">
+                        <p>Trở thành người bán hàng Shopee</p>
+                    </div>
+                    <div class="element3">
+                        <p>Tải ứng dụng</p>
+                    </div>
+                    <div class="element4">
+                        <p>Kết nối </p>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <div class="notification">
+                        <i class="bi bi-bell"></i>
+                        <p>Thông báo</p>
+                    </div>
+                    <div class="support">
+                        <i class="bi bi-question-circle"></i>
+                        <p>Hỗ trợ</p>
+                    </div>
+                    <div class="language">
+                        <i class="bi bi-globe2"></i>
+                        <p>Tiếng Việt</p>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <div class="account">
+                        <p id="dangki">Đăng kí</p>
+                        <p id="dangnhap">Đăng nhập</p>
+                    </div>
+                </div>
+            </div>
+            <!-- NOTIFICATION-POPUP -->
+            <div class="notification-popup">
+                <div class="notification-image">
+                    <img src="./fc9c8de0048cfefe.png" class="image">
+                    <p>Đăng nhập để xem thông báo</p>
+                </div>
+                
+                <div class="account">
+                    <div class="sign-in">
+                        <p>Đăng nhập</p>
+                    </div>
+                    <div class="sign-up">
+                        <p>Đăng kí</p>
+                    </div>
+                </div>
+            </div>
+            <!-- CHANGE LANGUAGE -->
+            <div class="change-language">
+                <p>Tiếng Việt</p>
+                <p>English</p>
+            </div>
+            <div class="nav-bot">
+                <div class="logo">
+                    <img src="./shopee logo.png" alt="">
+                </div>
+                <div class="search">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Shopee bao ship 0Đ - Đăng kí ngay!">
+                        <div class="search-logo">
+                            <i class="bi bi-search"></i>
+                        </div>
+                    </div>
+                    <div class="quick-search">
+                        <p>Điện thoại giá 1k</p>
+                        <p>Áo phông</p>
+                        <p>Ốp lưng iPhone</p>
+                        <p>Áo khoác</p>
+                        <p>Gấu bông</p>
+                        <p>Giày</p>
+                        <p>Son</p>
+                        <p>Quần Đùi</p>
+                        <p>Sữa rửa mặt</p>
+                        <p>Giày</p>
+                    </div>
+                </div>
+                <div class="cart">
+                    <i class="bi bi-cart"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+        <div class="container-2">
+            <div class="advertisement">
+                <div class="banner">
+                    <div class="carousel1">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./banner1.jfif" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./banner2.jfif" class="d-block w-100">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./banner3.jfif" class="d-block w-100">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel2">
+                        <div class="picture1">
+                            <img src="./banner4.jfif" alt="">
+                        </div>
+                        <div class="picture2">
+                            <img src="./banner5.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="box1 box">
+                        <img src="./img1.png" >
+                        <div class="box-text">
+                            <p>Voucher Giảm Đến 1 Triệu</p>
+                        </div>
+                    </div>
+                    <div class="box2 box">
+                        <img src="./img2.png" >
+                        <div class="box-text">
+                            <p>Miễn phí ship - Có shopee</p>
+                        </div>
+                    </div>
+                    <div class="box3 box">
+                        <img src="./img3.png" >
+                        <div class="box-text">
+                            <p>Mã Giảm Giá</p>
+                        </div>
+                    </div>
+                    <div class="box4 box">
+                        <img src="./img4.png" >
+                        <div class="box-text">
+                            <p>Shopee Siêu Rẻ</p>
+                        </div>
+                    </div>
+                    <div class="box5 box">
+                        <img src="./img5.png" >
+                        <div class="box-text">
+                            <p>Shopee Style Voucher 30%</p>
+                        </div>
+                    </div>
+                    <div class="box6 box">
+                        <img src="./img6.png" >
+                        <div class="box-text">
+                            <p>Hàng Quốc Tế</p>
+                        </div>
+                    </div>
+                    <div class="box7 box">
+                        <img src="./img7.png" >
+                        <div class="box-text">
+                            <p>Nạp Thẻ, Dịch Vụ & Học Phí</p>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <div class="main">
+                <div class="advertisement-2">
+                    <img src="./img8.png" alt="">
+                </div>
+                <div class="products">
+                    <div class="list">
+                        <p>DANH MỤC</p>
+                    </div>
+                    <div class="container text-center">
+                        <div class="row">
+                          <div class="col">
+                            <img src="./products-list/list1.webp" alt="">
+                            <p>Thời Trang Nam</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list2.webp" alt="">
+                            <p>Phụ Kiện & Điện Thoại</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list3.webp" alt="">
+                            <p>Thiết Bị Điện Tử</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list4.webp" alt="">
+                            <p>Máy Tính & Laptop</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list5.webp" alt="">
+                            <p>Máy Ảnh & Máy Quay Phim</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list6.webp" alt="">
+                            <p>Đồng Hồ </p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list7.webp" alt="">
+                            <p>Giày Dép Nam</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list8.webp" alt="">
+                            <p>Thiết Bị Điện Gia Dụng</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list9.webp" alt="">
+                            <p>Thể Thao & Du lịch</p>
+                          </div>
+                          <div class="col">
+                            <img src="./products-list/list10.webp" alt="">
+                            <p>Ô Tô & Xe máy & Xe đạp</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                              <img src="./products-list/list11.webp" alt="">
+                              <p>Thời Trang Nữ</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list12.webp" alt="">
+                              <p>Mẹ & Bé</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list13.webp" alt="">
+                              <p>Nhà Cửa & Đời Sống</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list14.webp" alt="">
+                              <p>Sắc Đẹp</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list15.webp" alt="">
+                              <p>Sức Khoẻ</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list16.webp" alt="">
+                              <p>Giày Dép Nữ</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list17.webp" alt="">
+                              <p>Túi Ví Nữ</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list18.webp" alt="">
+                              <p>Phụ Kiện & Trang Sức Nữ</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list19.webp" alt="">
+                              <p>Bách Hoá Online</p>
+                            </div>
+                            <div class="col">
+                              <img src="./products-list/list20.webp" alt="">
+                              <p>Nhà Sách Online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash-sale">
+                    <div class="sale-text">
+                        <img src="./flashsale.png" alt="">
+                        <p>Xem tất cả <i class="bi bi-chevron-right"></i></p>
+                    </div>
+                    <div class="splide flash-sale-splide" >
+                        <div class="splide__arrows splide__arrows--ltr">
+                            <button
+                              class="splide__arrow splide__arrow--prev"
+                              type="button"
+                              aria-label="Previous slide"
+                              aria-controls="splide01-track"
+                            >
+                            <i class="bi bi-arrow-left"></i>
+                            </button>
+                            <button
+                              class="splide__arrow splide__arrow--next"
+                              type="button"
+                              aria-label="Next slide"
+                              aria-controls="splide01-track"
+                            >
+                            <i class="bi bi-arrow-right"></i>
+                            </button>
+                          </div>
+                        <div class="splide__track">
+                              <ul class="splide__list">
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-1.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-2.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-3.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-4.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-5.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-6.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-7.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-8.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-9.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <img src="./flash-sale/flashsale-10.png" alt="">
+                                    <div class="price">
+                                        <p> ₫919.000</p>
+                                    </div>
+                                    <div class="trend">
+                                        <p>ĐANG BÁN CHẠY</p>
+                                    </div>
+                                  </li>
+                              </ul>
+                        </div>                      
+                      </div>
+                </div>
+                <div class="advertisement-3">
+                    <img src="./ad1.png" alt="">
+                </div>
+                <div class="mall">
+                    <div class="mall-text">
+                        <div class="text-1">
+                            <p>SHOPEE MALL</p>
+                        </div>
+                        <div class="text-2">
+                            <img src="./return.png" alt="">
+                            <span>Trả Hàng Miễn Phí 15 Ngày</span>
+                        </div>
+                        <div class="text-3">
+                            <img src="./511aca04cc3ba9234ab0e4fcf20768a2.png" alt="">
+                            <span>Hàng Chính Hãng 100%</span>
+                        </div>
+                        <div class="text-4">
+                            <img src="./delivery.png" alt="">
+                            <span>Miễn Phí Vận Chuyển</span>
+                        </div>
+                        <div class="text-5">
+                            <p>Xem tất cả <i class="bi bi-chevron-right"></i> </p>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <div class="splide banner-Splide" >
+                            <div class="splide__track">
+                                  <ul class="splide__list">
+                                      <li class="splide__slide">
+                                        <img src="./banner-img1.jfif" alt="">
+                                      </li>
+                                      <li class="splide__slide">
+                                        <img src="banner-img2.jfif" alt="">
+                                      </li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-5">
+                            <div class="row-1">
+                                <div class="item-1 item">
+                                    <div class="pic-1">
+                                        <img src="./carousel/item-1.webp" alt="">
+                                    </div>
+                                    <div class="des-1">
+                                        <p>Thời trang -50%</p>
+                                    </div>
+                                </div>
+                                <div class="item-1 item">
+                                    <div class="pic-2">
+                                        <img src="./carousel/item-2.webp" alt="">
+                                    </div>
+                                    <div class="des-2">
+                                        <p>Ưu đãi đến 50%</p>
+                                    </div>
+                                </div>
+                                <div class="item-1 item">
+                                    <div class="pic-3">
+                                        <img src="./carousel/item-3.webp" alt="">
+                                    </div>
+                                    <div class="des-3">
+                                        <p>Mua 1 được 2 </p>
+                                    </div>
+                                </div>
+                                <div class="item-1 item">
+                                    <div class="pic-4">
+                                        <img src="./carousel/item-4.webp" alt="">
+                                    </div>
+                                    <div class="des-4">
+                                        <p>Giảm đến 50%</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-5">
+                                        <img src="./carousel/item-5.webp" alt="">
+                                    </div>
+                                    <div class="des-5">
+                                        <p>Mua 1 được 6</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-6">
+                                        <img src="./carousel/item-6.webp" alt="">
+                                    </div>
+                                    <div class="des-6">
+                                        <p>Mua 1 tặng 1 </p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-7">
+                                        <img src="./carousel/item-7.webp" alt="">
+                                    </div>
+                                    <div class="des-7">
+                                        <p>Giảm đến 50%</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-8">
+                                        <img src="./carousel/item-8.webp" alt="">
+                                    </div>
+                                    <div class="des-8">
+                                        <p>Mua là có quà</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-2">
+                                <div class="item-1 item">
+                                    <div class="pic-9">
+                                        <img src="./carousel/item-9.webp" alt="">
+                                    </div>
+                                    <div class="des-9">
+                                        <p>Mua 1 tặng 1</p>
+                                    </div>
+                                </div>
+                                <div class="item-1 item">
+                                    <div class="pic-10">
+                                        <img src="./carousel/item-10.webp" alt="">
+                                    </div>
+                                    <div class="des-10">
+                                        <p>Mua 1 tặng 1</p>
+                                    </div>
+                                </div>
+                                <div class="item-1 item">
+                                    <div class="pic-11">
+                                        <img src="./carousel/item-11.webp" alt="">
+                                    </div>
+                                    <div class="des-11">
+                                        <p>Deli siêu sale </p>
+                                    </div>
+                                </div>
+                                <div class="item-1 item">
+                                    <div class="pic-12">
+                                        <img src="./carousel/item-12.webp" alt="">
+                                    </div>
+                                    <div class="des-12">
+                                        <p>Quà mọi đơn</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-13">
+                                        <img src="./carousel/item-13.webp" alt="">
+                                    </div>
+                                    <div class="des-13">
+                                        <p>Mua là có quà</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-14">
+                                        <img src="./carousel/item-14.webp" alt="">
+                                    </div>
+                                    <div class="des-14">
+                                        <p>Mua là có quà</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="pic-15">
+                                        <img src="./carousel/item-15.webp" alt="">
+                                    </div>
+                                    <div class="des-15">
+                                        <p>Mua là có quà</p>
+                                    </div>
+                                </div>
+                                <div class="item-2 item">
+                                    <div class="des-16">
+                                        <p>Xem tất cả <i class="bi bi-chevron-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-prev button" >
+                                <span><i class="bi bi-chevron-left icon"></i></span>
+                            </div>
+                            <div class="button-next button" >
+                                    <span ><i class="bi bi-chevron-right icon"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img src="./shopee logo.png" alt="">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <p class="text-body-secondary">© 2024</p>
+              </div>
+
+          
+              <div class="col mb-3">
+                <h5>Chăm sóc khách hàng</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Trung Tâm Trợ Giúp</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Shopee Blog</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Shopee Mall</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Hướng Dẫn Mua Hàng</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Hướng Dẫn Bán Hàng</span></a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5>VỀ SHOPEE
+                </h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Giới Thiệu Về Shopee Việt Nam</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Tuyển Dụng</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Điều Khoản Shopee</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Chính Sách Bảo Mật</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Chính Hãng</span></a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5>THEO DÕI CHÚNG TÔI TRÊN</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-facebook"></i>  <span>Facebook</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-instagram"></i>  <span>Instagram</span></a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-linkedin"></i>  <span>LinkedIn</span></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
